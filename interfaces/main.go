@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 /*
 *Aslında buradaki mantık şu ki, örneğin benim bir mağazam var ve birden fazla kategoride ürün satışı yapıyorum ve
 * bu ürünlerden karışık bir şekilde ve istediği kadarını sepete ekleyen kullanıcının sepete gittiğinde total tutarı görmesi için
@@ -65,6 +63,8 @@ func calculateTotalShippingCostofBooks(books []Book) {
 	}
 }
 */
+
+/*
 func main() {
 	var products []IShippable = []IShippable{
 		&Book{desi: 10},
@@ -79,5 +79,6 @@ func main() {
 
 		fmt.Println(book1.ShippingCoast())
 		fmt.Println(book2.ShippingCoast())
-	*/
+
 }
+*/

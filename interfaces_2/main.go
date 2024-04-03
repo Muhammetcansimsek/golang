@@ -27,6 +27,7 @@ func (xencoder *xEncoder) Decode(value string) {
 	fmt.Println("xEncoder ile kod çözüldü.")
 }
 
+/*
 func main() {
 	var encoder IEncoder
 	encoder = &xEncoder{}
@@ -39,5 +40,5 @@ func main() {
 		encoder = &xEncoder{}
 		encoder.Encode("123456")
 		encoder.Decode("xasdsawqe1")
-	*/
 }
+*/
